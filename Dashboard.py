@@ -49,7 +49,7 @@ o3_breakpoints = [
  ]
  
 # AQI calculation function
- def calculate_aqi(concentration, breakpoints):
+def calculate_aqi(concentration, breakpoints):
      for C_lo, C_hi, I_lo, I_hi in breakpoints:
          if C_lo <= concentration <= C_hi:
              return round(((I_hi - I_lo) / (C_hi - C_lo)) * (concentration - C_lo) + I_lo)
