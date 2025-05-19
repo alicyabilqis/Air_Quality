@@ -378,7 +378,7 @@ fig.update_layout(
 fig.update_traces(
     textposition='middle center',
     marker=dict(line=dict(width=0)),
-    textfont=dict(color='black', family='Arial Black')
+    textfont=dict(family='Arial Black')
 )
 
 # Display
