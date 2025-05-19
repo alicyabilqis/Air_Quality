@@ -1,8 +1,4 @@
 matplotlib==3.8.0
 numpy>=1.25.0
 pandas==1.5.3
-protobuf==6.31.0
-pycountry==24.6.1
-scikit_learn==1.6.1
-scikit_surprise==1.1.4
-seaborn==0.13.2
+plotly==5.21.0
