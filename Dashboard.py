@@ -6,7 +6,6 @@ import seaborn as sns
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
-from google.colab import drive
 import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
